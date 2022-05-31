@@ -24,3 +24,4 @@ function sayHello(name = 'friend'){
 }
 const msg1 = sayHello()
 console.log(msg1)
+//return 만 존재 하거나 return 이 없을때는 undefined를 반환 
