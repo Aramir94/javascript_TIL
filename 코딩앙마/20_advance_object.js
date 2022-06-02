@@ -50,3 +50,13 @@ const arr =
     ["age","30"]
 ]
 console.log(Object.fromEntries(arr))  //{ name: 'Mike', age: '30' }
+
+// 예제 
+function makeObj(key, val){
+    return{
+        [key] : val
+    }
+}
+
+const obj = makeObj("이름", 33) // 어떤게 키가 될지 모르는 function에서 유용
+console.log(obj)
