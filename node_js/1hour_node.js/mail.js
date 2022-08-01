@@ -1,3 +1,5 @@
+//npm install nodemailer # 모듈 설치
+
 const nodemailer = require('nodemailer');
 const email = {
     host: "smtp.mailtrap.io",
